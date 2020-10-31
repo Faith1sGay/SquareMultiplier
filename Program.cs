@@ -2,7 +2,6 @@
 
 namespace SquareMultiplier
 
-
 {
     class Square
     {
@@ -23,7 +22,7 @@ namespace SquareMultiplier
             {
                 Square sq1 = new Square(3, 9);
                 Square sq2 = new Square(10, 5);
-                Console.WriteLine($"The Value of both squares together is {sq1.x * sq1.y + sq2.x * sq2.y}");
+                Console.WriteLine($"The Value of both squares together is {sq1.x + sq1.y * sq2.x + sq2.y}");
                 Console.ReadLine();
 
 
