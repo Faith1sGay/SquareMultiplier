@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SquareMultiply
+namespace SquareMultiplier
 
 
 {
